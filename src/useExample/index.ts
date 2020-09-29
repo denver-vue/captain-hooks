@@ -14,9 +14,7 @@ import { ref, Ref } from 'vue';
  *
  * @returns Ref<string>
  */
-const useExample = (): Ref<string> => {
+export const useExample = (): Ref<string> => {
   const example = ref('example');
   return example;
 };
-
-export default useExample;

@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import useExample from '.';
+import { useExample } from '.';
 
 test('useExample', (t) => {
   const example = useExample();
