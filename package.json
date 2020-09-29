@@ -1,11 +1,11 @@
 {
-  "name": "captain-hooks",
-  "version": "1.0.1",
+  "name": "@denver-vue/captain-hooks",
+  "version": "1.0.0",
   "description": "A collection of Vue 3 Composition API Hooks built by the members of the Denver Vue.js Meetup.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/w3cj/captain-hooks",
+  "repository": "https://github.com/denver-vue/captain-hooks",
   "license": "MIT",
   "keywords": [],
   "scripts": {

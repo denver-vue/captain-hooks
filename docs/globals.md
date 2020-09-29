@@ -16,28 +16,17 @@
 
 ▸ `Const`**useExample**(): Ref\<string>
 
-*Defined in useExample/index.ts:28*
+*Defined in [useExample/index.ts:17](https://github.com/denver-vue/captain-hooks/blob/b330d44/src/useExample/index.ts#L17)*
 
 Returns an example ref.
 
 ### Example
-```html
-<template>
- <h1>{{example}}</h1>
-</template>
+```js
+import { useExample } from '@denver-vue/captain-hooks';
 
-<script>
-import { useExample } from '@denver-vue/captain-hooks'
+const example = useExample();
 
-export default {
- setup() {
-   const example = useExample();
-   return {
-     example,
-   };
- },
-};
-</script>
+console.log(example.value); // example
 ```
 
 **Returns:** Ref\<string>
